@@ -5,7 +5,7 @@ from .matcher import score_pair
 from .gazetteer import load_gazetteer
 from .embeddings import embed, cosine_sim
 
-def _load_pairs(path="data/test_pairs.json"):
+def _load_pairs(path="test_pairs.json"):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
