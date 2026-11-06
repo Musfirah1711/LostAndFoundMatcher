@@ -1,0 +1,25 @@
+{
+  "lost_reports": [
+    {"id": "L1", "text": "I lost my black leather wallet near the college library."},
+    {"id": "L2", "text": "Lost a blue umbrella in the canteen yesterday."},
+    {"id": "L3", "text": "My white AirPods case went missing outside the gym."},
+    {"id": "L4", "text": "Lost a brown notebook in the computer lab."},
+    {"id": "L5", "text": "I misplaced my red backpack at the main gate."}
+  ],
+  "found_reports": [
+    {"id": "F1", "text": "A student found a black wallet outside the library."},
+    {"id": "F2", "text": "Found a blue umbrella near the canteen."},
+    {"id": "F3", "text": "Someone found a white earbuds case outside the gym."},
+    {"id": "F4", "text": "Found a red jacket at the main gate."},
+    {"id": "F5", "text": "A brown notebook was found in the computer lab."},
+    {"id": "F6", "text": "Found a black wallet near the main gate."},
+    {"id": "F7", "text": "Someone found a red backpack near the main gate."}
+  ],
+  "labels": [
+    {"lost_id": "L1", "found_id": "F1", "label": 1},
+    {"lost_id": "L2", "found_id": "F2", "label": 1},
+    {"lost_id": "L3", "found_id": "F3", "label": 1},
+    {"lost_id": "L4", "found_id": "F5", "label": 1},
+    {"lost_id": "L5", "found_id": "F7", "label": 1}
+  ]
+}
