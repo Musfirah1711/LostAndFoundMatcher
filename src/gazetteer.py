@@ -8,7 +8,7 @@ _LOC_PREPS = ["near", "outside", "inside", "at", "in", "on", "beside",
               "next to"]
 _ARTICLES = ["the", "a", "an"]
 
-def load_gazetteer(path="data/gazetteer.json"):
+def load_gazetteer(path="gazetteer.json"):
     global _GAZ_CACHE
     if _GAZ_CACHE is None:
         with open(path, "r", encoding="utf-8") as f:
